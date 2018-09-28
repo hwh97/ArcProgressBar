@@ -227,6 +227,7 @@ public class ArcProgressBar extends View {
         this.useGradient = useGradient;
     }
 
+
     //开放api//
 
     private void intiAttributes(Context context, AttributeSet attrs) {
