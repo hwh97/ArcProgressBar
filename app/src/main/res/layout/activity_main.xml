@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <cn.hwwwwh.circleprogress.ArcProgressBar
+        android:id="@+id/arcProgressBar"
+        android:layout_marginTop="8dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:progressRoundBgColor="@color/white"
+        app:arcBgColor="@color/white"
+        app:arcForeStartColor="@color/progressbar_color"
+        app:arcForeEndColor="@color/progressbar_color"
+        app:dottedDefaultColor="@color/white"
+        app:arcUseGradient="false"
+        app:progressTextRunColor="@color/progressbar_color"
+        app:dottedRunColor="@color/progressbar_color"
+        app:textHintPaintColor="@color/white"
+        app:progressMax="100"
+        app:arcDistance="0"
+        app:dottedLineHeight="1"
+        app:dottedLineWidth="6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:text="初始化"
+            android:id="@+id/btn_init"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="随机进度"
+            android:id="@+id/btn_random"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
